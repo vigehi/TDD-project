@@ -2,7 +2,7 @@ class Solver
   def factorial(n)
     if n <= 1?
       1
-    elsif n > 1
+    elsif n.negative?
       'Number is less than 0'
     else
       Math.gamma(n + 1)
