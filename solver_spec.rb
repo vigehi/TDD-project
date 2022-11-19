@@ -25,6 +25,10 @@ describe Solver do
   end
 
   context 'Reverse a string:' do
+    it 'Should return a string value' do
+      return_value = solver.fizzbuzz(4)
+      expect(return_value).to eq 4.to_s
+    end
     it 'Should not get an error for empty string' do
       expect(solver.reverse('')).to eq ''
     end
