@@ -68,10 +68,7 @@ In order to run this project you need:
 
 ### Setup
 Clone this repository to your desired folder:
-```sh
-  git clone git@github.com:kusiLaw/TDD-project.git
-  cd TDD-project
-```
+
 ### Install
 Install this project with:
 ```sh
