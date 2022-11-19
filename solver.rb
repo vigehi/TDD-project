@@ -1,9 +1,9 @@
 class Solver
   def factorial(n)
-    if n <= 1?
-      1
-    elsif n.negative?
+    if n.negative?
       'Number is less than 0'
+    elsif n<= 1?
+      1
     else
       Math.gamma(n + 1)
     end

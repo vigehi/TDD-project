@@ -39,7 +39,6 @@ describe Solver do
   end
 
   context 'Get "fizzbuzz" value:' do
-    
     it 'Numbers divisible by 3 should return "fizz"' do
       expect(solver.fizzbuzz(6)).to eq 'fizz'
     end
