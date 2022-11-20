@@ -25,6 +25,10 @@ describe Solver do
   end
 
   context 'Reverse a string:' do
+    # it 'Should return a string value' do
+    #   return_value = solver.fizzbuzz(4)
+    #   expect(return_value).to eq 4.to_string
+    # end
     it 'Should not get an error for empty string' do
       expect(solver.reverse('')).to eq ''
     end
@@ -39,7 +43,6 @@ describe Solver do
   end
 
   context 'Get "fizzbuzz" value:' do
-    
     it 'Numbers divisible by 3 should return "fizz"' do
       expect(solver.fizzbuzz(6)).to eq 'fizz'
     end

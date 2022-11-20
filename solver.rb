@@ -1,11 +1,11 @@
 class Solver
-  def factorial(n)
-    if n <= 1?
-      1
-    elsif n.negative?
+  def factorial(num)
+    if num.negative?
       'Number is less than 0'
+    elsif [1, 0].include?
+      1
     else
-      Math.gamma(n + 1)
+      Math.gamma(num + 1)
     end
   end
 
@@ -13,17 +13,16 @@ class Solver
     string.reverse
   end
 
-  def fizzbuzz(n)
-
-    if (n % 3).zero?
+  def fizzbuzz(num)
+    if (num % 3).zero?
       'fizz'
-    elsif (n % 5).zero?
+    elsif (num % 5).zero?
       'buzz'
-    elsif ((n % 5).zero?  && (n % 3).zero?)
+    elsif (num % 5).zero? && (n % 3).zero?
       'fizzbuzz'
 
     else
-      n.to_string
+      num.to_string
     end
-     end
+  end
 end

@@ -88,7 +88,7 @@ In order to run unit tests on the local machine Rspec gem should be installed
   ```
 - After installation run
   ```sh
-  rspec spec/file_name.rb
+  rspec file_name.rb
   ```
 - If you are interested in running all the tests together then
   ```sh
